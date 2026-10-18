@@ -160,3 +160,24 @@ footer h1 {
   line-height: 3rem;
   word-break: break-all;
 }
+
+/* Créditos do desenvolvedor */
+.credits {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #8f9ba8;
+}
+
+.credits a {
+  color: #167bf7b3; /* Use a cor principal do seu layout */
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
